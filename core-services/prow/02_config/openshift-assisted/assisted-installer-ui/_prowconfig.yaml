@@ -5,7 +5,7 @@ branch-protection:
         assisted-installer-ui:
           branches:
             ^release-.*:
-              protect: false
+              unmanaged: true
             ^releases/v.*:
               protect: false
           enforce_admins: true
